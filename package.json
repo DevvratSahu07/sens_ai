@@ -2,6 +2,9 @@
   "name": "ai-career-coach",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=20.9.0"
+  },
   "scripts": {
     "dev": "next dev",
     "dev:turbo": "next dev --turbopack",
@@ -27,7 +30,6 @@
     "@radix-ui/react-slot": "^1.1.1",
     "@radix-ui/react-tabs": "^1.1.2",
     "@uiw/react-md-editor": "^4.0.5",
-    "ai-career-coach": "file:",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "date-fns": "^4.1.0",
